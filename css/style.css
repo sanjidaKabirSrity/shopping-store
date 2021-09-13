@@ -49,25 +49,17 @@ body {
 .single-product:hover {
   box-shadow: 1px 1px 15px rgb(172, 170, 170);
   border-radius: 10px;
-  /* border: 1px solid cyan; */
 }
-/* .product-img{
-  height: 50%;
-} */
+
 .product-head{
-  /* height: 200px; */
-  padding: 40px;
+  padding: 10px 40px;
 
 }
 .product-image {
   width: 150px;
   height: 200px;
-  /* height:100%; */
-  /* padding: 40px; */
 }
-/* .products-info{
-  height: 50%;
-} */
+
 #addToCart-btn{
   background-color: green;
 }
@@ -76,12 +68,14 @@ body {
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+}
+.cart:hover{
+  border: 1px solid green;
 }
 .cart-main {
   padding-right: 30px;

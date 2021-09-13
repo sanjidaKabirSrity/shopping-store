@@ -18,7 +18,7 @@ const showProducts = (products) => {
           <img src=${image} class="card-img-top product-image" alt="product">
         </div>
         <div class="card-body text-center">
-          <h3 class="card-title">${product.title}</h3>
+          <h3 class="card-title">${product.title.slice(0,30)}</h3>
           <p class="card-text">Category: ${product.category}</p>
           <h4>Price: $ ${product.price}</h4>
         </div>
